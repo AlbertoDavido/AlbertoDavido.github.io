@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST"){
     $Email=htmlspecialchars($_POST["email"]);
     $Phone=htmlspecialchars($_POST["Phone"]);
     $Message=htmlspecialchars($_POST["Message"]);
-    $to="wamenjudavid@gmail.com";
+    $to="executive@sibicare";
     $subject="New Message from $Fname " ;
     $body="Name: $Fname\n Email: $Email\n Message\n $Message";
     $header="From $Email";
