@@ -31,8 +31,12 @@ document.getElementById("scroll").scrollIntoView({behaviour: "smooth"})
 
 console.log(action);
 
-
-
+const Today=new Date();
+const yyyy=Today.getFullYear();
+const mm=String(Today.getMonth() + 1).padStart(2,'0');
+const dd=String(Today.getDate() + 1).padStart(2,'0');
+const minDate=`${yyyy}-${mm}-${dd}`;
+let getDate=document.getElementById('date-check').setAttribute('min',minDate);
 
 
 
