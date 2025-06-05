@@ -735,7 +735,7 @@ label{
 }
 .service-style{
   background-color: rgb(237,246,238);
-  padding: 30px;
+  padding:  30px 2px; margin-right: auto;
 }
 .form-label{
   font-family: "DM Sans";
@@ -748,4 +748,7 @@ label{
   font-family: "DM Sans";
   padding: 10px 45px;
   border-radius: 9999px;
+}
+.form-check .form-label{
+  font-size: 16px;
 }
