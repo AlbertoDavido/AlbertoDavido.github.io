@@ -240,7 +240,7 @@ font-weight: 400;
   color:#8a2e5e;
 }
 .t-flex p{
-  padding-left: 90px;
+  padding-top: 10px;
   font-weight: 600;
   font-family: "DM Sans";
 }
@@ -329,7 +329,10 @@ footer{
 .footer-img img{
   height: 20px;
   width: 20px;
-  background-color: white;
+  
+}
+.footer-icon{
+  color: white;
 }
 .footer-mail{
   display: flex;
@@ -752,3 +755,28 @@ label{
 .form-check .form-label{
   font-size: 16px;
 }
+.warn-text{
+  margin-top: 1px
+}
+.warn-text small{
+  padding-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

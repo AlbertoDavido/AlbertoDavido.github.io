@@ -36,7 +36,20 @@ const yyyy=Today.getFullYear();
 const mm=String(Today.getMonth() + 1).padStart(2,'0');
 const dd=String(Today.getDate() + 1).padStart(2,'0');
 const minDate=`${yyyy}-${mm}-${dd}`;
-let getDate=document.getElementById('date-check').setAttribute('min',minDate);
+const fetchDate=document.getElementById('date-check');
+
+const getDate=document.getElementById('date-check').setAttribute('min',minDate);
+
+const startDate=document.getElementById('date-check');
+console.log(startDate);
+console.log("Hello world");
+
+
+document.getElementById('date-check').addEventListener("change", function(){
+    const start=this.value;
+const setEndDate=document.getElementById('date-checking').value=start;
+    const endDate=document.getElementById('date-checking').setAttribute("min", start);
+});
 
 const hcheck=document.getElementById("home-check");
 const acheck=document.getElementById("alzheimers-check");
@@ -140,13 +153,13 @@ item_select.addEventListener("change", function(){
     }
 })
 
-const time=document.getElementById("time-control");//time-control is the div field id
-const time_setter=document.getElementById("time-set");//time-set is the time input id
-const dateSelect=document.getElementById("date-check");//date-check is the date input id
-dateSelect.addEventListener("change", function(){
-    time.hidden=false;
-    time_setter.value="07:00";
-});
+// const time=document.getElementById("time-control");//time-control is the div field id
+// const time_setter=document.getElementById("time-set");//time-set is the time input id
+// const dateSelect=document.getElementById("date-check");//date-check is the date input id
+// dateSelect.addEventListener("change", function(){
+//     time.hidden=false;
+//     time_setter.value="07:00";
+// });
 
 const phone=document.getElementById("phone");
 phone.addEventListener("input", function(e){

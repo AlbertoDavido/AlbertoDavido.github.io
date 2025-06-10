@@ -75,14 +75,289 @@
 <input type="email" class="form-control" placeholder="Enter Email" required>
 
 <label for="" class="form-label">PhoneNumber</label>
+<small style="color: red;">*</small>
 <input type="text" class="form-control" placeholder="Enter LastName" required>
 
 <label for="" class="form-label">Location</label>
 <input type="text" class="form-control" placeholder="Enter Location" required><label for="" class="form-label">Service</label>
-<select name="" id="" class="form-select"><option value="" selected disabled>Choose service</option></select>
+<select name="" id="drop-select" class="form-select form-control">
+  <option value="" selected disabled>Choose service</option>
+  <option value="homecare" >HomeCare </option>
+  <option value="alzheimers" >Alzheimer’s</option>
+  <option value="palliative" >Palliative</option>
+  <option value="respite" >Respite</option>
+  <option value="transitional" >Transitional</option>
+  <option value="physiotherapy" >Physiotherapy</option>
+  <option value="phlebotomy" >Phlebotomy</option>
+  <option value="wellness" >Wellness</option>
+</select>
+   <div class="form-checkbox mt-3" id="home-check" hidden>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Medication Management & Administration</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Wound Care & Dressing</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Vital Signs Monitoring</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Assistance with Daily Living Activities</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Post-Hospitalization & Rehabilitation Care</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Chronic Disease Management</label>
+    </div>
+   </div>
+   <div class="form-checkbox mt-3" id="palliative-check"    hidden >
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Cancer Care & Symptom Management</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Oncology Home Support
+</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Emotional & Psychological Support</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Personal Care & Daily Assistance</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Nutritional Guidance & Hydration Assistance</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">End-of-Life & Hospice Care</label>
+    </div>
+   </div>
+   <div class="form-checkbox mt-3" id="respite-check" hidden  >
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Temporary In-Home Nursing & Caregiving</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Personalized Care Plans</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Assistance with Daily Activities</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Medication Management & Health Monitoring</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Companionship & Emotional Support</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Flexible Scheduling</label>
+    </div>
+      </div>
+   <div class="form-checkbox mt-3" id="phlebotomy-check"    hidden >
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Home Blood Draws</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Office & Workplace Blood Testing</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Routine & Diagnostic Blood Work</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Pre-Employment & Corporate Health Screenings</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Specialized & Doctor-Requested Tests</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Mobile Phlebotomy </label>
+    </div>
+   </div>
+   <div class="form-checkbox mt-3" id="transitional-check" hidden>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Hospital-to-Home Assistance</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Post-Surgery & Post-Hospitalization Support</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Medication Management</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Physiotherapy & Rehabilitation</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Chronic Disease & Post-Stroke Care</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Wound Care & Recovery Monitoring</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Nutrition & Hydration Support</label>
+    </div>
+   </div>
+   <div class="form-checkbox mt-3" id="physiotherapy-check" hidden >
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Post-Surgery Rehabilitation</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Stroke & Neurological Rehabilitation</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Pain Management Therapy</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Injury Recovery & Sports Therapy</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Elderly & Fall Prevention</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Customized Exercise & Mobility Programs</label>
+    </div>
+   </div>
+   <div class="form-checkbox mt-3" id="wellness-check" hidden >
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Basic Wellness Check (Essential Health Screening)</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Standard Wellness Check (Routine Health Monitoring)</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Comprehensive Wellness Check (Full-Body Health Assessment)</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">VVIP Wellness Check (Executive & Personalized Health Screening)</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Post-Hospitalization & Rehabilitation Care</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Chronic Disease Management</label>
+    </div>
+      </div>
+   <div class="form-checkbox mt-3" id="alzheimers-check"    hidden >
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">24/7 Supervision & Safety Monitoring</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Medication Management & Health Monitoring</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Cognitive Stimulation Activities</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Assistance with Daily Living Activities</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Emotional & Behavioral Support</label>
+    </div>
+    <div class="form-check">
+
+      <input type="checkbox" name="" id="" class="form-check-input">
+      <label for="" class="form-label">Transparent & Personalized Care Plans</label>
+    </div>
+   </div>
    
-<label for="" class="form-label">Date</label>
+<label for="" class="form-label">StartDate</label>
 <input type="date" class="form-control"  id="date-check" required>
+<label for="" class="form-label">EndDate</label>
+<input type="date" class="form-control"  id="date-checking" required>
 <div class="btn-form">
 <input type="submit" value="Send" class="btn btn-success mt-5 ">
 </div>
