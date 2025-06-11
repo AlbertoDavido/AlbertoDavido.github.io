@@ -40,9 +40,9 @@ const fetchDate=document.getElementById('date-check');
 
 const getDate=document.getElementById('date-check').setAttribute('min',minDate);
 
-const startDate=document.getElementById('date-check');
-console.log(startDate);
-console.log("Hello world");
+// const startDate=document.getElementById('date-check');
+// console.log(startDate);
+// console.log("Hello world");
 
 
 document.getElementById('date-check').addEventListener("change", function(){
